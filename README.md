@@ -1,10 +1,10 @@
 <div align="center">
-  <img src="https://github.com/carlossless/smk/assets/498906/30535a69-47a5-4229-8e08-fe2a840d8355" alt="SMK" />
+  <img src="https://github.com/karstx/smk/assets/498906/30535a69-47a5-4229-8e08-fe2a840d8355" alt="SMK" />
 </div>
 
 # SMK - Small (device) Mechanical Keyboard Firmware
 
-[![Build](https://github.com/carlossless/smk/actions/workflows/build.yml/badge.svg)](https://github.com/carlossless/smk/actions/workflows/build.yml) [![](https://img.shields.io/badge/discord-SMK-blue)](https://discord.gg/SZFBDBuxrK)
+[![Build](https://github.com/karstx/smk/actions/workflows/build.yml/badge.svg)](https://github.com/karstx/smk/actions/workflows/build.yml) [![](https://img.shields.io/badge/discord-SMK-blue)](https://discord.gg/SZFBDBuxrK)
 
 This is a keyboard firmware targeting SinoWealth 8051-based devices.
 
@@ -14,7 +14,7 @@ The S (Small) in SMK comes from this firmware using [SDCC](https://sdcc.sourcefo
 
 This firmware is still highly experimental, so be cautious when trying to use it or extend it.
 
-You can very easily end up with a bricked device if the written firmware can't jump back into ISP mode, so before testing or modifying it, it's best to have a full dump of your stock firmware and a programming tool (like an Arduino Nano + [sinodude-serial](https://github.com/carlossless/sinodude/tree/main/firmware) or SinoWealth SinoLink + ProWriter) that can write it back.
+You can very easily end up with a bricked device if the written firmware can't jump back into ISP mode, so before testing or modifying it, it's best to have a full dump of your stock firmware and a programming tool (like an Arduino Nano + [sinodude-serial](https://github.com/karstx/sinodude/tree/main/firmware) or SinoWealth SinoLink + ProWriter) that can write it back.
 
 ## Supported Devices
 
@@ -33,7 +33,7 @@ Platform notes: [SH68F90 / SH68F90A](docs/platforms/sh68f90.md), [SH68F881](docs
 
 #### Nix
 
-Currently, this project is primarily developed with the help of [Nix](https://nixos.org/) and Nix flakes. Please consider using Nix and the provided [flake](https://github.com/carlossless/smk/blob/master/flake.nix) to automatically set up a reproducible development environment.
+Currently, this project is primarily developed with the help of [Nix](https://nixos.org/) and Nix flakes. Please consider using Nix and the provided [flake](https://github.com/karstx/smk/blob/master/flake.nix) to automatically set up a reproducible development environment.
 
 With Nix installed and flakes enabled, use `nix develop` or [direnv](https://direnv.net/) to enter a shell with all prerequisites installed.
 

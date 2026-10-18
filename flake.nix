@@ -3,7 +3,7 @@
     nixpkgs.url = "github:NixOS/nixpkgs/nixos-26.05";
     utils.url = "github:numtide/flake-utils";
     sinowisp = {
-      url = "github:carlossless/sinowisp";
+      url = "github:karstx/sinowisp";
       inputs.nixpkgs.follows = "nixpkgs";
     };
   };

@@ -145,13 +145,13 @@
       "locked": {
         "lastModified": 1788546369,
         "narHash": "sha256-orfTJyOYDnpb3QuwydI+U27+kyyps5uGXO6KwETOWng=",
-        "owner": "carlossless",
+        "owner": "karstx",
         "repo": "sinowisp",
         "rev": "2e292356a74fd569255b904dd8445106a2481e43",
         "type": "github"
       },
       "original": {
-        "owner": "carlossless",
+        "owner": "karstx",
         "repo": "sinowisp",
         "type": "github"
       }
